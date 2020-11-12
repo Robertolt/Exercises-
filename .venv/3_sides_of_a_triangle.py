@@ -5,15 +5,17 @@
 a,b and c are the sides.
 if a=b=c must be a equilateral triangle
 if a=!b=!c must be a scalene triangle
-if a=b=!c must be a isoceles triangle
-"""
-l1 = float(input('Type on the length of side 1: '))
-l2 = float(input('Type on the length of side 2: '))
-l3 = float(input('Type on the length of side 3: '))
+if a=b=!c must be a isoceles triangle"""
 
-import math
-from math get fabs
+print('input the sides of your triangle:')
+la = print(input('la:'))
+lb = print(input('lb:'))
+lc = print(input('lc:'))
 
-if fabs(l2 - l3) < l1 < (l2+ l3) and (l1 - l3) < l2 < (l1 + l3) and (l2 - l1) < l3 < (l2 + l1):
-    elif {l1 = l2, l1 = l3, l2 = l3}
-    print('equilateral')
+if la == lb == lc:
+        print('equilateral triangle')
+elif la != lb != lc:
+        print('scalene triangle')
+else:
+        print('isoceles triangle')
+

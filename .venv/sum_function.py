@@ -1,16 +1,21 @@
-"""Give numbers and make the progam sum it and return for you"""
+def sum_numbers(*s):
 
-print('Type on the wished numbers like these: 1,2,174 ')
+    """
+     >>> sum_numbers(1,2,3)
+    6
 
+    >>>sum(54,67,108)
+    229
 
+    :param s:
+    :return:
+    """
 
-def soma(*args):
     aux = 0
-    for vallue in args:
-        aux =+ vallue
-    return aux
-
+    for valor in s:
+        aux += valor
+    return(aux)
 
 if __name__ == '__main__':
-
-
+    sum_numbers(int(input()))
+    print(aux)
