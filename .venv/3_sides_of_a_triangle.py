@@ -12,10 +12,10 @@ la = print(input('la:'))
 lb = print(input('lb:'))
 lc = print(input('lc:'))
 
-if la == lb == lc:
-        print('equilateral triangle')
-elif la != lb != lc:
-        print('scalene triangle')
+if (la==lb==lc):
+    print('equilateral triangle')
+elif (la==lb) or (lb==lc) or (la==lc):
+    print('isoceles triangle')
 else:
-        print('isoceles triangle')
+    print('scalene triangle')
 
