@@ -9,3 +9,13 @@ if right_this_minute in odds:
     print("This minute seems little odd.")
 else:
     print("not an odd minute.")
+
+import datetime
+print(datetime.date.today().day)
+print(datetime.date.today().month)
+print(datetime.date.today().year)
+print(datetime.date.isoformat(datetime.date.today()))
+
+import time
+print(time.strftime('%H:%M'))
+print(time.strftime('%a %p'))
