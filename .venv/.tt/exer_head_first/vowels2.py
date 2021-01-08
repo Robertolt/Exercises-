@@ -10,3 +10,5 @@ for letters in word:
             found.append(letters)
 for letters in found:
     print(letters)
+
+print()
