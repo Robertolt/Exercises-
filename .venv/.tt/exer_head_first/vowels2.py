@@ -11,4 +11,3 @@ for letters in word:
 for letters in found:
     print(letters)
 
-print()
