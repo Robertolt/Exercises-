@@ -24,11 +24,16 @@ else:
     if sm %21.6 != 0:
         print((sm//21.6) +1, 'tins of 3.6l is needed and u will pay ', int((sm//21.6) +1)*25, 'R$')
 
-if sm < 108:
+if sm < 108 and sm%21.6 != 0:
     print((sm//21.6) +1, 'tins of 3.6l is needed and u will pay ', int((sm//21.6) +1)*25, 'R$')
+elif sm%21.6 == 0:
+    print((sm//21.6), 'tins of 3.6l is needed and u will pay ', int((sm//21.6))*25, 'R$')
 elif sm == 108:
     print('1 tin of 18l is needed and u will pay 80R$')
 elif sm > 108:
     if sm %108 !=0:
         print(sm//108, 'tins of 18l and', ((sm%108)//21.6) + 1,'tins of 3.6l and u will pay',
               int((sm//108)*80 + (sm%108//21.6) +1) ,'R$')
+
+#Erros encontrados: Caso seja inserido uma metragem quadrada que ao ser multiplicada por 1.1 e dividida por 21,6 ou 108
+#e da resto zero sem ser os proprios numeros o programa apresenta erro

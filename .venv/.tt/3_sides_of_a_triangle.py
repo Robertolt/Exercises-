@@ -8,13 +8,13 @@ if a=!b=!c must be a scalene triangle
 if a=b=!c must be a isoceles triangle"""
 
 print('input the sides of your triangle:')
-la = print(input('la:'))
-lb = print(input('lb:'))
-lc = print(input('lc:'))
+la = int(input('la:'))
+lb = int(input('lb:'))
+lc = int(input('lc:'))
 
-if (la==lb==lc):
+if la == lb and la == lc:
     print('equilateral triangle')
-elif (la==lb) or (lb==lc) or (la==lc):
+elif (la == lb) or ( lb == lc) or (la==lc):
     print('isoceles triangle')
 else:
     print('scalene triangle')
