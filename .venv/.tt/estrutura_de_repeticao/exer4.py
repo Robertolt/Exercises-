@@ -8,8 +8,9 @@ popB = 200_000
 year = 0
 
 while popA <= popB:
-    popA = popA*1.03
-    popB = popB*1.015
+    popA *= 1.03
+    popB *= 1.015
     year += 1
+    print(popA, popB, year)
 
 print(year)

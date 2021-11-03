@@ -2,7 +2,7 @@
 mostrando uma mensagem de erro e voltando a pedir as informações."""
 
 while True:
-    name = input('Input your name: ')
+    name = input('Input your username: ')
     password = input('Input your password: ')
 
     if name == password:

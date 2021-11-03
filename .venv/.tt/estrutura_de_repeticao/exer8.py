@@ -2,9 +2,9 @@
 
 sum = float(input('input a number: '))
 
-for n in range(2, 6):
+for n in range(2, 6):  # 2,3,4,5
     sum += float(input('input a number: '))
-    rate = sum / n
-    print(f'the sum is {sum}', f'and the rate in {rate}')
+    average = sum / n
+    print(f'the sum is {sum}', f'and the average in {average}')
 
 

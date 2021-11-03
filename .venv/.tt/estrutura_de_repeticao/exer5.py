@@ -1,8 +1,8 @@
 """Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais.
 Valide a entrada e permita repetir a operação."""
 
-print('''insert 2 populations sizes and their growthing rates so the program will calculate the time in years one will '
-reach the other''')
+print('''insert 2 populations sizes and their growthing rates so the program will calculate the time in years when 
+one will reach the other''')
 
 while True:
 

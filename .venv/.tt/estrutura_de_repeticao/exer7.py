@@ -2,6 +2,6 @@
 
 maximo = float(input('input a number: '))
 
-for _ in range (4):
-    maximo = max(maximo,float(input('input a number: ')))
+for _ in range(4):  # 0,1,2,3
+    maximo = max(maximo, float(input('input a number: ')))
     print(f'the max number until now is {maximo}')
