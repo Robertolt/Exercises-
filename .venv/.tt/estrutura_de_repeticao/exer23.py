@@ -3,7 +3,7 @@ O programa deverá mostrar também o número de divisões que ele executou para 
 Serão avaliados o funcionamento, o estilo e o número de testes (divisões) executados."""
 
 numero_n = int(input('coloque até que número deseja-se procurar por primos: '))
-primos = 1
+primos = 2
 numero_divisoes = 0
 divisores = 0
 lista_primos = []
@@ -18,9 +18,10 @@ while primos <= numero_n:
             numero_divisoes += 1
     if divisores == 2:
         lista_primos.append(primos)
+        divisores = 0
     else:
         divisores = 0
 
     primos += 1
 
-print(lista_primos, numero_divisoes)
+print(f'a lista de primos é{lista_primos}, e foram feitas {numero_divisoes} divisoes')
