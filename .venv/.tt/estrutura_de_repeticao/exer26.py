@@ -19,3 +19,7 @@ for _ in range(n_votantes):
     else:
         print('Voto inválido')
 
+<<<<<<< HEAD
+=======
+print(f'o cantidato A teve {candidato_A} votos, o candidato B teve {candidato_B}, e o candidato C teve {candidato_C} votos')
+>>>>>>> feito os 4 primeiros exercicios de sequencias de repeticao
