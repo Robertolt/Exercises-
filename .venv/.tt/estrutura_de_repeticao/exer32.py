@@ -7,12 +7,17 @@ fatorial = int(input('Insira o fatorial a ser calculado: '))
 x = 1
 valor = 1
 lista = []
+contador = fatorial
 
 for _ in range(fatorial):
     valor *= x
     lista.append(x)
     x += 1
 
-print(f'{fatorial}! = {lista}.{lista} = {valor}')
+print(f'{fatorial}! = ')
+for _ in range(contador - 1):
+    print(f'{contador}', end='.')
+    contador -= 1
+print(f'1 = {valor}')
 
 
