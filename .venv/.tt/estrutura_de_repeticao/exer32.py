@@ -15,7 +15,7 @@ for _ in range(fatorial):
     x += 1
 
 print(f'{fatorial}! = ')
-for _ in range(contador - 1):
+for _ in range(contador - 1): # 0 1 2 3 4
     print(f'{contador}', end='.')
     contador -= 1
 print(f'1 = {valor}')
