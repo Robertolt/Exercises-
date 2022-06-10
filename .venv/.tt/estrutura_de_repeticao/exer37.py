@@ -4,3 +4,10 @@ sua altura e seu peso. O final da digitação de dados deve ser dada quando o us
 Ao encerrar o programa também deve ser informados os códigos e valores do clente mais alto, do mais baixo, do mais gordo
  e do mais magro, além da média das alturas e dos pesos dos clientes"""
 
+while True:
+    nome = str(input('insira seu nome: '))
+    if nome == '0':
+        break
+    altura = float(input('insira sua altura: '))
+    peso = float(input('insira seu peso: '))
+
