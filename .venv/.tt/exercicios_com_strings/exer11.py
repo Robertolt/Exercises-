@@ -32,6 +32,7 @@ erros = 0
 
 while not conjunto_palavra.issubset(conjunto_letras_digitadas) and erros < 6:
     letra_digitada = input('Digite uma letra: ').upper()
+
     if letra_digitada in conjunto_letras_digitadas:
         print('Essa letra você já usou, tente outra.')
     else:
