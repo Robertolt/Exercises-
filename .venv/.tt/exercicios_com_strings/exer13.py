@@ -6,11 +6,21 @@ Ao final a palavra deve ser mostrada na tela, informando se o usuário ganhou ou
 """
 from random import randint
 
-palavra = list('lolozin')
-print(palavra)
+palavra = 'paradoxal'
+lista_palavra = list(palavra)
+print(lista_palavra)
 
-for letras in range(len(palavra)):
-    letra_aleatoria = str(palavra[randint(0, len(palavra) - 1)])
+print('A palavra embaralhada é: ', end='')
+for letras in range(len(lista_palavra)):
+    letra_aleatoria = str(lista_palavra[randint(0, len(lista_palavra) - 1)])
     print(letra_aleatoria, end='')
-    palavra.remove(letra_aleatoria)
+    lista_palavra.remove(letra_aleatoria)
 
+print()
+
+for i in range(1, 7):
+    chute = input('Digite a palavra organizada: ')
+    if chute == palavra:
+        print('Parabéns, você acertou!!!')
+    else:
+        print(f'Você errou pela {i}º vez de 6 tentativas')
